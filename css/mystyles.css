@@ -12,7 +12,7 @@
 }
 
 a {
-    color:#565656
+    color: #565656;
     
 }
 
@@ -37,4 +37,12 @@ h2, .h2 {
     font-weight: 300;
     text-transform: none;
     font-size: 1.2rem;
+}
+.btn-primary {
+--bs-btn-color: #fff; /* 按鈕文字顏色：白色 */
+--bs-btn-bg: #808080; /* 按鈕背景顏色：灰色 */
+--bs-btn-border-color: #808080; /* 按鈕邊框顏色：灰色 */
+--bs-btn-hover-color: #fff; /* 滑鼠移上去的文字顏色 */
+--bs-btn-hover-bg: #5a5a5a; /* 滑鼠移上去的背景：深灰色 */
+--bs-btn-hover-border-color: #5a5a5a;
 }
